@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro aluno Serratec</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="cadastro-txt">Cadastro Aluno Serratec</h1>
+
+        <div class="container-info-pessoais">
+            <h3 class="info-txt">Informações pessoais</h3>
+
+            <label for="nome">Nome</label>
+            <input type="text">
+
+            <label for="email">E-mail</label>
+            <input type="email">
+
+            <label for="senha">Senha</label>
+            <input type="password">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel">
+
+            <label class="cpf" for="cpf">CPF</label>
+            <input type="text">
+        </div>
+
+        <div class="container-enderecos">
+            <h2>Endereço</h2>
+
+            <label for="cEst">Estado:</label>
+            <select name="tEst" id="cEst">
+                <option value="0">Selecione o Estado</option>
+                <option value="DF">Distrito Federal</option>
+                <optgroup label="Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="RR">Roraima</option>
+                    <option value="AP">Amapá</option>
+                    <option value="PA">Pará</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AC">Acre</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                </optgroup>
+                <optgroup label="Centro-Oeste">
+                    <option value="GO">Goiás</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+
+            <label for="Cidade">Cidade</label>
+            <input type="text">
+
+            <label for="bairro">Bairro</label>
+            <input type="text">
+
+            <label for="rua">Rua</label>
+            <input type="text">
+
+            <label for="complemento">Complemento/Numero</label>
+            <input type="text">
+
+        </div>
+
+        <div class="container-outros">
+            <h3>Resumo sobre você</h3>
+            <h5>Escreva um pequeno resumo sobre você</h5>
+            <textarea rows="4" cols="50"></textarea>
+        </div>
+        <footer>
+            <div class="botao">
+                <button class="botao1">Salvar</button>
+                <button class="botao2">Cancelar</button>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

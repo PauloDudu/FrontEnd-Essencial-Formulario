@@ -1,0 +1,145 @@
+:root {
+    --bg-start:rgb(112, 133, 228);
+    --bg-end:rgb(155, 208, 233) ;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://thumbs.gfycat.com/NervousSmallAustralianfreshwatercrocodile-size_restricted.gif');
+    
+        
+    
+}
+
+div.container {
+    color: var(--bg-end);
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    grid-template-rows: 1fr 3fr 3fr 1fr 1fr;
+    grid-template-areas: "h"  
+                         "ip" 
+                         "end" 
+                         "ot"  
+                         "f";
+    grid-gap: 3px;
+}
+
+.cadastro-txt {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    grid-area: h;
+}
+
+.info-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+div.container-info-pessoais {
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+    border: 1px solid var(--bg-end);
+    margin-bottom: 12px;
+    padding: 30px;
+    grid-area: ip;
+}
+
+
+div.container-enderecos {
+    padding: 30px;
+    border-radius: 12px;
+    display: grid;
+    justify-content: center;
+    border: 1px solid var(--bg-end);
+    grid-area: end;    
+}
+
+div.container-outros {
+    border-radius: 12px;
+    border: 1px solid var(--bg-end);
+    padding: 30px;
+    grid-area: ot;
+}
+
+footer {
+    display: grid;
+    justify-items: end;
+    grid-area: f;
+}
+
+input {
+    color: var(--bg-end);
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid var(--bg-end);
+    width: 400px;
+    margin-bottom: 55px;
+}
+
+
+div.container-enderecos input {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid var(--bg-end);
+    width: 400px;
+}
+
+.cpf {
+    margin-top: 1px;
+    margin-bottom: -4px;
+}
+
+select {
+    color: var(--bg-end);
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.botao1,
+.botao2  {
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    height: 25px;
+    width: 100px;
+    background-color:rgb(112, 133, 228);
+}
+
+.botao1:hover {
+    transition: 600ms;
+    background-color: rgb(11, 37, 185);
+}
+
+.botao2:hover {
+    transition: 600ms;
+    background-color: rgb(11, 37, 185);
+}
+
+label, input {
+    border-radius: 12px;
+    color: var(--bg-end);
+}
+
+textarea {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+label {
+    margin-bottom: -29px;
+}
