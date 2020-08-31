@@ -112,22 +112,23 @@ select {
 
 .botao1,
 .botao2  {
+    transition: 600ms;
     border-radius: 8px;
     outline: none;
     border: 0;
-    height: 25px;
+    height: 30px;
     width: 100px;
     background-color:rgb(112, 133, 228);
 }
 
 .botao1:hover {
-    transition: 600ms;
     background-color: rgb(11, 37, 185);
+    transform: scale(1, 1.5);
 }
 
 .botao2:hover {
-    transition: 600ms;
     background-color: rgb(11, 37, 185);
+    transform: scale(1, 1.5);
 }
 
 label, input {
