@@ -11,9 +11,7 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background-image: url('https://thumbs.gfycat.com/NervousSmallAustralianfreshwatercrocodile-size_restricted.gif');
-    
-        
-    
+     
 }
 
 div.container {
@@ -28,6 +26,8 @@ div.container {
                          "ot"  
                          "f";
     grid-gap: 3px;
+    background-color: rgba(0, 0, 0, 0.700);
+    
 }
 
 .cadastro-txt {
